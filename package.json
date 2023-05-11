@@ -4,7 +4,6 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon backend/server.js"
   },
   "repository": {
@@ -18,6 +17,8 @@
   },
   "homepage": "https://github.com/Zenkiez22/zapchat#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
   }
 }
